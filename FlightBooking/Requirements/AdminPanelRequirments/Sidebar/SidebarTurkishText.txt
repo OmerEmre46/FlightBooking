@@ -18,7 +18,7 @@
         <div class="nav-item-wrap">
             <a class="nav-link-item" href="#" onclick="setActive(this);return false;">
                 <i class="bi bi-grid-1x2-fill icon"></i>
-                <span class="label">Dashboard</span>
+                <span class="label">Gösterge Paneli</span>
                 <span class="nav-badge">5</span>
             </a>
         </div>
