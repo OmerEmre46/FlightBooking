@@ -46,11 +46,12 @@
                 </div>
             </div>
         }
-        @* asp-area="Admin"
-              asp-controller="Booking"
-              asp-action="CreateBooking" *@
+
         @* ── FORM ── *@
-        <form method="post"
+        <form asp-area="Admin"
+              asp-controller="Booking"
+              asp-action="CreateBooking"
+              method="post"
               id="bookingForm">
 
             @Html.AntiForgeryToken()

@@ -13,7 +13,7 @@ namespace FlightBooking.Services.BookingServices
         {
             var client = new MongoClient(settings.ConnectionString);
             var database = client.GetDatabase(settings.DatabaseName);
-            _bookingCollection = database.GetCollection<Booking>(settings.FlightCollectionName);
+            _bookingCollection = database.GetCollection<Booking>(settings.BookingCollectionName);
             _flightCollection = database.GetCollection<Flight>(settings.FlightCollectionName);
         }
 
