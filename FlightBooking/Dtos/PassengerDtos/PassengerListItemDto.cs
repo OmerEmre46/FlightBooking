@@ -5,19 +5,19 @@
         //public string PassengerId { get; set; }
 
         // Yolcu kolonu
+        public string PassengerId { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Email { get; set; }
 
         // Cinsiyet
         public string Gender { get; set; }            // Erkek / Kadın
+        public string PnrNumber { get; set; }            // Erkek / Kadın
 
         // Tip
         public string PassengerType { get; set; }     // Yetişkin / Çocuk / Bebek
 
         // PNR
-        public string Pnr { get; set; }               // TKX471
-
         // Koltuk
         public string SeatNumber { get; set; }        // 12A
 
